@@ -53,12 +53,13 @@ This project demonstrates how computer vision models can be applied to support c
 
 ## Folder Structure
 
-final_dataset_classification/ ├── fetal-classification.ipynb # Main training and evaluation notebook 
-├── final_dataset/ # Preprocessed images (train/val/test subfolders)
-│ ├── train/
-│ │ └── [class folders] # Fetal brain, abdomen, etc. 
-│ ├── val/ 
-│ │ └── [class folders] 
-│ └── test/ 
-│ └── [class folders] 
+- final_dataset_classification/ 
+- ├── fetal-classification.ipynb # Main training and evaluation notebook 
+- ├── final_dataset/ # Preprocessed images (train/val/test subfolders)
+- │ ├── train/
+- │ │ └── [class folders] # Fetal brain, abdomen, etc. 
+- │ ├── val/ 
+- │ │ └── [class folders] 
+- │ └── test/ 
+- │ └── [class folders] 
 
