@@ -53,4 +53,12 @@ This project demonstrates how computer vision models can be applied to support c
 
 ## Folder Structure
 
-final_dataset_classification/ ├── fetal-classification.ipynb # Main training and evaluation notebook ├── final_dataset/ # Preprocessed images (train/val/test subfolders) │ ├── train/ │ │ └── [class folders] # Fetal brain, abdomen, etc. │ ├── val/ │ │ └── [class folders] │ └── test/ │ └── [class folders] ├── checkpoints/ # Saved model weights (optional) ├── training_curves.png # Accuracy/loss plot (if generated) ├── gradcam_example.png # Optional Grad-CAM result └── README.md # This file
+final_dataset_classification/ ├── fetal-classification.ipynb # Main training and evaluation notebook 
+├── final_dataset/ # Preprocessed images (train/val/test subfolders)
+│ ├── train/
+│ │ └── [class folders] # Fetal brain, abdomen, etc. 
+│ ├── val/ 
+│ │ └── [class folders] 
+│ └── test/ 
+│ └── [class folders] 
+
